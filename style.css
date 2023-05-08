@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,600&family=Ubuntu+Condensed&family=Ubuntu:wght@400;700&family=Varela+Round&family=Zen+Kurenaido&display=swap');
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+body {
+    /* background-color: rgb(242, 137, 0); */
+    background-image: url("Image/play3.png");
+    height: 100% ;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex ;
+    align-items: center ;
+    list-style-type: none ;
+    height: 50px ;
+    background-color: black ;
+    color: white ;
+}
+
+nav ul li {
+    padding: 0 20px ;
+}
+
+.brand img {
+    height: 42px ;
+    padding-right: 15px ;
+} 
+
+.brand {
+    display: flex ;
+    align-items: center ;
+    font-weight: bolder ;
+    font-size: 1.3rem ;
+}
+
+.NCSheading{
+    margin-bottom: 30px ;
+}
+
+.container {
+    /* min-height: 60vh ; */
+    background-color: black ;
+    color: white ;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 70% ;
+    margin: 23px auto ;
+    padding: 30px ;
+    border-radius: 12px ;
+    background-image: url('Image/bg.jpg') ;
+}
+
+.bottom {
+    position: sticky;
+    height: 120px ;
+    background-color: black ;
+    color: antiquewhite;
+    bottom: 0 ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.fa-3x {
+    padding: 14px 25px ;
+    cursor: pointer ;
+}
+
+#myProgressBar{
+    width: 80vw ;
+    cursor: pointer ;
+}
+
+.songItem {
+    height: 50px ;
+    display: flex ;
+    background-color: rgb(0, 0, 0) ;
+    color: rgb(255, 255, 255);
+    /* width: 80% ; */
+    margin: 12px 0 ;
+    justify-content: space-between ;
+    align-items: center ;
+}
+
+.songItem img {
+    width: 43px ;
+    margin: 0 22px ;
+    border-radius: 100% ;
+}
+
+.timeStamp {
+    margin: 0 20px ;
+}
+
+.fa-2x {
+    padding: 10px ;
+    cursor: pointer ;
+}
+
+.songInfo {
+    position: absolute ;
+    left: 19vh ;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    padding: 0 100px  ;
+    margin-top: 10px ;
+    height: 60px ;
+    width: 80% ;
+    opacity: 0 ;
+    transition: opacity 1s ease-in ;
+}
+
+.ndGif {
+    position: absolute ;
+    left: 130vh ;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
